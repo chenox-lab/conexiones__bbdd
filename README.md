@@ -2,27 +2,31 @@
 Paquete completo de conexiones a bases de datos como oracle, mysql, sqlserver y sqlite con python
 
 Instalar para el modulo de mysql pymysql
+
 	pip install PyMySQL
 
 Instalar para el modulo de oracle
+
 	pip install cx_Oracle
 
 Instalar para el modulo de sqlite
+
 	pip install sqlite3
 
 Instalar para el modulo sqlserver
+
 	pip install pyodbc
 
 Hay un archivo llamado scriptTabla.sql que es un pequeño script en mysql para crear la tabla con los datos necesarios para que funcione el script mysql, pero hay que tener en cuenta que para hacer las comprobaciones y que todo funcione correctamente has de tener instalado cada servidor y creada la bbdd con su tabla y sus datos.
 
 Los parametro que recibe el modulo mysql son:
 
-host: Nombre del servidor al que quieres conectar
-user: Usuario que uses
-password: Contraseña que tengas
-dataBase : Nombre de tu base de datos
-port: puerto de la base de datos, por defecto 3306
-charset: Codificación de la bbdd, por defecto UTF-8
+	host: Nombre del servidor al que quieres conectar
+	user: Usuario que uses
+	password: Contraseña que tengas
+	dataBase : Nombre de tu base de datos
+	port: puerto de la base de datos, por defecto 3306
+	charset: Codificación de la bbdd, por defecto UTF-8
 
 
 Los parametro que recibe el modulo oracle son:
