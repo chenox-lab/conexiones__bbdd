@@ -87,7 +87,7 @@ class Oracle():
 		"""Recogemos datos de la base de datos
 
 		>>> t.select("SELECT NOMBRE_ARTICULO, PRECIO FROM PRODUCTOS WHERE id=1")
-		[('Pelota', 35)]
+		[('Pelota', 35.0)]
 
 		"""
 		try:

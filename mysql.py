@@ -106,3 +106,4 @@ class Mysql():
 if __name__ == "__main__":
 	import doctest
 	doctest.testmod(extraglobs={'t': Mysql("localhost", "chenox", "123456", "GestionProductos")})
+	help(Mysql.select)
